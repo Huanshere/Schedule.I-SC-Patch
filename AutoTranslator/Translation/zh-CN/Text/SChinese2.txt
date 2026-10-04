@@ -1,0 +1,579 @@
+本内容汉化 by 夜行者
+
+==================== 内容来自: 设置&控制台.txt ====================
+Other=其它
+Auto Backup Saves=自动备份存档
+If enabled, loading an existing save on a new version of the game will automatically generate a backup.=如果启用此功能,在新版本游戏中加载现有存档将自动生成备份。
+Backups are stored in this folder:=备份存储路径:
+%USERPROFILE%\\AppData\\LocalLow\\TVGS\\Schedule I\\Saves\\<STEAM_ID>\\Backups=%USERPROFILE%\\AppData\\LocalLow\\TVGS\\Schedule I\\Saves\\<STEAM_ID>\\Backups
+Press <color\=orange>BackQuote</color> to toggle the console=按下<color\=orange>~键</color>以切换控制台\n\n\n\n<color\=#55F01B>本汉化为免费分享，请勿在任何渠道受骗付费购买！\n简体中文汉化 by 启铭star 夜行者(B站）\n<color\=red>仅供游戏学习交流-禁止商业用途\n\n<color\=yellow>充电赞助名单\n@雨后的枫 @新 @兔豆妈咪喜宝</color>
+<color=#6400FF>Custom Console Commands</color>=<color=#6400FF>自定义控制台命令</color>  
+consolekey=consolekey  
+consolekey f2=consolekey f2  
+charactercustomizer=charactercustomize  
+destroynpcs=destroynpcs  
+Destroys all NPCs in the scene, including employees and dealers.=杀死场景中的所有 NPC，包括员工和经销商。  
+logcustomcommands=logcustomcommands  
+</color=#8A2BE2>Custom Console Commands</color>=</color=#8A2BE2>自定义控制台指令</color>
+<color\=#6400FF>Custom Console Commands</color>=<color\=#6400FF>自定义控制台命令</color>
+Opens the character creator menu.=打开角色创建菜单。
+Changes the console key bind.=更改控制台按键绑定。
+Logs all custom commands registered via the framework in the MelonLoader console.=在 MelonLoader 控制台中记录所有通过该框架注册的自定义指令。
+Units=单位
+Metric=公制
+Imperial=英制
+setitemquality standard, setitemquality premium=setitemquality standard, setitemquality premium
+setdayduration 24=setdayduration 24
+setitemquality=setitemquality
+setdayduration=setdayduration
+Teleports the player to the specified location, property, or NPC.=将玩家传送到指定的位置、财产或NPC。
+teleport townhall, teleport barn, teleport jessi_waters=teleport townhall, teleport barn, teleport jessi_waters
+Sets the (real life) duration of an in-game 24-hour cycle. Measured in real minutes.=设置游戏中 24 小时循环的（现实生活）持续时间。\n以实际分钟测量。
+r:"Autosave_(.+)"=自动保存_$1
+Camera Sensitivity=镜头灵敏度
+setquantity 5=setquantity 5
+Sets the quantity of the currently equipped item.=设置当前装备物品的数量。
+setpoliceignoreplayers true, setpoliceignoreplayers false=setpoliceignorespeareers true，setpoliceIgnorespearers true
+setpoliceignoreplayers=setpoliceignoreplayers
+Sets the weather to the specified type=将天气设置为指定类型
+setweatherspeed=setweatherspeed
+setweatherspeed 2=setweatherspeed 2
+Triggers a lightning event. You can specify a target (player or npc) or leave it empty for a random location.=触发闪电事件。您可以指定一个目标（玩家或NPC），也可以将其留空以用于随机位置。
+triggerdistantthunder=triggerdistantthunder
+Triggers distant thunder.=触发远雷。
+setquantity 5=setquantity 5
+Sets the quantity of the currently equipped item.=设置当前装备物品的数量。
+setpoliceignoreplayers true, setpoliceignoreplayers false=setpoliceignorespeareers true，setpoliceIgnorespearers true
+setpoliceignoreplayers=setpoliceignoreplayers
+Sets whether police ignore players.=设置警察是否无视玩家。
+Sets the weather to the specified type=将天气设置为指定类型
+setweather=setweather
+setweather clear, setweather lightrain, setweather heavyrain=setweather clear, setweather lightrain, setweather heavyrain
+Sets the speed at which weather volumes move.\nDefault is 1.=设置天气区域的移动速度。\n默认值为 1。
+triggerlightning=triggerlightning
+If enabled, the product mixing algorithm \nwill be randomized using this save file's seed. \nThis will not affect your existing mixes.=如果启用，产品混合算法将使用此保存文件的种子进行随机化。这不会影响您现有的组合。
+triggerlightning, triggerlightning cranky_frank, triggerlightning playername=triggerlightning, triggerlightning cranky_frank, triggerlightning playernam
+setquantity=setquantity
+Most plants will grow faster in warm temperatures.=大多数植物在温暖的温度下生长得更快。
+Seeded Mixing=种子混合
+The feedback system is currently undergoing upgrades.=反馈系统目前正在升级。
+
+==================== 内容来自: 主界面.txt ====================
+What do you want to see in the next Schedule I update?=你希望在下次 Schedule I 的更新中看到什么？
+Thanks for voting! Shrooms won this vote, receiving over 269K submissions. This update is estimated to release in November.=感谢投票！"蘑菇"以超过26.9万票赢得本次投票。该更新预计将于11月发布。\n\n<color\=#55F01B>本汉化为免费分享，请勿在任何渠道受骗付费购买！
+Hireable Drivers=可雇用的司机
+Fishing=钓鱼
+Spraying graffiti will give you XP and reduce cartel influence in that region.=喷涂涂鸦可以获得经验值，并降低该地区的卡特尔影响力。
+Dealers keep getting robbed? Give them a weapon to defend themselves with.=经销商老是被抢？给他们一件武器防身吧。
+Each time you rank up, you can purchase another Spray Paint can at a gas station.=每次你的等级提升后，就可以在加油站额外购买一罐喷漆。
+Staff don't work for free! They will automatically draw their daily wage from their locker. If it's empty at the start of a new shift, they won't work.=员工不是无偿工作的！他们会自动从储物柜中提取每日工资。如果在新班次开始时它是空的，他们就不会工作。
+You can rename stations, pots, storage racks, etc, using your management clipboard.=您可以使用管理剪贴板重命名工作站、花盆、存储架等。
+KAESUL=凯瑟尔
+Cody To=科迪·托
+Zac Williams=扎克·威廉姆斯
+You can set filters on item slots to tell employees which items can or can't go in a particular slot.=您可以在项目槽上设置过滤器，告诉员工哪些项目可以或不能放入特定槽中。
+You can use an AC unit to warm or cool an area.=您可以使用空调来加热或冷却某个区域。
++ More      <color\=#FFC73D>Spray Paint</color> available at Gas-Mart=+ 更多      <color\=#FFC73D>喷漆</color> 加油站超市有售
+You can set filters on item slots to tell employees which items can or can't go in a particular slot.=您可以在项目槽上设置过滤器，告诉员工哪些项目可以或不能放入特定槽中。
+Export Player.log=导出游玩日志
+Author: DazUki=添加一名作者
+Export Player-prev.log=导出游玩日志备份
+Your employees (excluding dealers) will consume any bagged product that you place in their inventory.=你的员工（不包括经销商）将消耗你放在他们库存中的任何袋装产品。
+Game Status=游戏状态
+Most plants will grow faster in warm temperatures.=大多数植物在温暖的温度下生长得更快。
+Buds/leaves will dry faster in warm temperatures.=芽/叶在温暖的温度下会更快地干燥。
+==================== 内容来自: 物品&地点.txt ====================
+Viagor=伟哥
+Great for treating altitude sickness, and some other stuff.=主治高原反应，兼有一些其他疗效。
+Sewer Key=下水道钥匙
+An old key used to access the sewers under Hyland Point.=一把用于通往海兰角下方下水系统的旧钥匙。
+Graffiti Cleaner=涂鸦清洁剂
+Can be used to clean graffiti off a surface.=可用于清除物体表面的涂鸦。
+Paracetamol=止痛药
+PGR=植物生长调节剂
+Pump Shotgun=泵动式霰弹枪
+Shotgun Shell=12号霰弹
+Sour Diesel Seed=酸柴油种子
+Sour Diesel=酸柴油
+Granddaddy Purple Seed=紫爹种子
+Granddaddy=紫色老爹
+Green Crack Seed=绿裂种子
+Green Crack=绿裂
+Coca Leaf=古柯叶
+Plastic folding table=塑料折叠桌
+Plastic table=塑料桌
+RESTRICTED ACCESS=限制区域
+STAFF ONLY=仅限员工
+BEYOND THIS POINT=前方禁行
+Flush=冲
+Trash Crown=垃圾王冠
+Regal elegance on a budget.=花小钱体验皇家气派。
+Increase volume=增大音量
+Lower volume=减小音量
+Use jukebox=使用点唱机
+Hyland =海兰  
+Sewer Office=下水道办公室  
+Range=范围  
+Suburbia=郊区  
+Downtown=市中心 
+<color=#76C9FF>docks</color>=<color=#76C9FF>码头</color>  
+•  Long faced=• 长脸
+r:"Mix the chunks into the soil (.+)"=将大块物混合到土壤中 $1
+r:"Pour into pot (.+)"=倒入锅中 $1
+r:"Click and hold tap to fill (.+)"=单击并按住点击以填充 $1
+r:"Push the plunger (.+)"=推动柱塞 $1
+Already contains shrooms=已经包含蘑菇
+r:"Click and hold over mushrooms to harvest (.+)"=点击并按住蘑菇进行收获 $1
+Shroom=迷幻蘑菇
+Poor Magic Mushroom=低品质魔幻菇
+Standard Magic Mushroom=中品质魔幻菇
+Premium Magic Mushroom=高品质魔幻菇
+Spray bottle empty=喷雾瓶空
+Must be filled with soil=必须填充土壤
+<color\=#88CBFF>RMB</color> to toggle between <color\=#F86266>heating</color> and <color\=#88CBFF>cooling</color> while placing an AC unit.=<color\=#88CBFF>右键</color>可在放置空调设备时在<color\=#F86266>加热</color>和<color\=#88CBFF>冷却</color>之间切换。
+Price=价格
+Rename=重命名
+Mushroom Spawn Station=菌孢站
+Fungal Phil=真菌菲尔
+Entity Name=实体名称
+Insert grain bag and spore syringe=插入菌种袋和孢子注射器
+Mushroom Substrate=蘑菇基质
+Spore Syringe=孢子注射器
+Spray Bottle=喷雾瓶
+Grain Bag=菌种袋
+Mushroom Hat=蘑菇帽
+Mushroom Bed=菇床
+Shroom Supplies=盥洗室用品
+AC Unit=空调机组
+Vibin' on the 'Cybin='Cybin 上的 Vibin'
+Buy GTR R34=购买 GTR R34
+Reload Guns=重新装弹枪
+A 400-round magazine for the MiniGun.=迷你枪的400发弹匣。
+30-round magazine for the ak47 assault rifle.=ak47突击步枪的30发弹匣。
+AK47 assault rifle A true American classic.=AK47突击步枪，真正的美国经典。
+An extremely powerful gattling gun with high damage and quick fire.=一种极其强大的加特林枪，具有高伤害和快速射击。
+Sweet Puke=甜蒲
+Collect Cash=收取现金
+The peak of fungal fashion.=真菌时尚的巅峰。
+Freestanding air conditioning unit that can heat or cool its surroundings.=独立式空调机组，可以加热或冷却周围环境。
+Toggle Heating/Cooling=切换加热/冷却
+spray bottle for mushroom bed=菇床喷雾瓶
+Holds a small amount of water. Used to mist mushroom beds.=可容纳少量水。用于菇床的喷雾。
+Contains mushrooms=含有蘑菇
+Already contains shrooms=已经包含蘑菇
+Spray=喷雾
+Mist the target area=对目标区域进行喷雾处理
+Manage Mushroom Bed=管理菇床
+Apply Speed Grow=使用促生剂
+Plastic folding table.=塑料折叠桌。
+The storage unit at Stash & Dash= Stash & Dash的仓储单元
+Large metal storage closet with 12 slots.=带 12 个槽位的大型金属储物柜。
+Small metal storage closet with 6 slots.=带 6 个槽位的小型金属储物柜。
+Medium metal storage closet with 8 slots.=中型金属储物柜，带 8 个槽位。
+Huge metal storage closet with 20 slots.=巨大的金属储物柜，有 20 个槽位。
+High-Quality Pseudo=高品质伪麻黄碱
+Large Storage Closet=大型储物柜
+Medium Storage Closet=中型储物柜
+Small Storage Closet=小型储物柜
+UNDO=撤消
+RESTART=重启
+Huge Storage Closet=巨大型储物柜
+Manage Brick Press=管理砖机
+Total Spent <color\=#A0A0A0>(Weekly)</color>=总花费 <color\=#A0A0A0>（每周）</color>
+<color\=#A0A0A0FF>No recent purchases</color>=<color\=#A0A0A0FF>最近没有购买</color>
+Most Purchased Product <color\=#A0A0A0>(Weekly)</color>=最常购买的产品 <color\=#A0A0A0>（每周）</color>
+Golden M1911=金色M1911
+
+==================== 内容来自: 对话和消息.txt ====================
+Do you know where I can get a sewer key?=你知道哪儿能搞到下水道钥匙吗？
+r:"Hmm... Oscar seen one lying around somewhere in <color\=#76C9FF>(.+)</color> I think..."=嗯...奥斯卡看到一个躺在某个地方 <color\=#76C9FF>$1</color> 我认为...
+Hmm... Oscar seen one lying around somewhere in <color=#76C9FF>suburbia</color> I think...=嗯...奥斯卡看到一个躺在某个地方 <color=#76C9FF>郊区</color> 我认为...
+r:"Oh! and I remember hearing <color\=#76C9FF>(.+)</color> has one! Sorry, Oscar isn't very good with names. Hope this helps."=哦！我想起来听人说，<color\=#76C9FF>$1</color> 有一个！抱歉，奥斯卡不太擅长记名字。希望这有帮助。
+Oh! and I remember hearing <color=#76C9FF>the guy with the funny hair and glasses</color> has one! Sorry, Oscar isn't very good with names. Hope this helps.=哦！我想起来听人说，<color=#76C9FF>那个发型搞笑还戴眼镜的家伙</color> 有一个！抱歉，奥斯卡不太擅长记名字。希望这有帮助。
+Boss, some Benzies tried to jump me - I put up a fight but they got some stuff. Sorry.=老板，几个本吉斯帮的人想打我——我跟他们干了一架，但他们还是抢了些货。抱歉。
+r:"This is what they got:\n(.+)"=这是他们抢的东西:\n$1
+The damn Benzies just sent some guys after me - I backed them off but they managed to swipe some stuff. Sorry boss.=该死的本吉斯家族刚才派了几个人来找我麻烦——我把他们干退了，但他们还是抢走了一些东西。对不起，老板。
+Hey, I defended myself against some Benzies goons. No product or cash lost.=嘿，我跟本吉斯家族派来的几个打手干了一架，货和钱都没丢。
+Some Benzies punks tried to rob me but I managed to fight them off - no product or cash lost, boss.-老板，刚才有几个本吉斯家族的小混混想抢我，但都被我打跑了——货和钱一分没少
+Some Benzies punks tried to rob me but I managed to fight them off - no product or cash lost, boss.=一些本吉斯的小混混试图抢劫我，但我成功击退了他们——没有产品或现金损失，老板。
+Hey, the Benzies just robbed me - they came outta nowhere and I wasn't able to defend myself. They got... everything, sorry boss...=嘿，本齐家的人刚刚抢劫了我——他们突然出现，我没能保护自己。他们拿走了……所有的东西，对不起老板……
+Hey boss, the Benzies tried to jump me but I backed those chumps down - they didn't get a thing from me.=嘿老板，本齐家的人想突袭我，但我把那些废物吓退了——他们什么都没拿到。
+You wanna buy something?=想买点什么吗？
+You can now order <color\=#88CBFF>pseudo</color> from Shirley. Pseudo is the main precursor ingredient for <color\=#88CBFF>methamphetamine</color>.=你现在可以从雪莉那里订购<color\=#88CBFF>伪麻黄碱</color>了。伪麻黄碱是<color\=#88CBFF>甲基苯丙胺</color>（冰毒）的主要前体成分。
+Mist your growing mushrooms with a spray bottle to keep them hydrated. You'll also need to keep them cool with an AC unit. After a little while, they'll be ready to harvest!=用喷雾瓶喷洒正在生长的蘑菇，使其保持水分。你还需要用空调来保持它们凉爽。过一会儿，它们就可以收割了！
+• Purchase a mushroom bed from Oscar=•从奥斯卡购买蘑菇床
+• Purchase a grain bag from Fungal Phil=•从真菌菲尔购买一个菌种袋
+• Purchase a mushroom spawn station from Oscar=•从奥斯卡购买菌孢站
+• Purchase mushroom substrate from Fungal Phil=•从真菌菲尔购买蘑菇基质
+• Purchase a spore syringe from Fungal Phil=• 从真菌菲尔购买孢子注射器
+Agreed. I'll be next to the mayor's house for the next 6 hours.=同意。\n接下来的 6 小时我将在市长家旁边。
+How do I grow shrooms?=我如何种植蘑菇？
+First, get a grain bag and a spore syringe. Take them both to a mushroom spawn station, where you can inject the spore syringe into the grain bag. This will produce shroom spawn.=首先，拿一个菌种袋和一个孢子注射器。把它们都带到菌孢站，在那里你可以把孢子注射器注射到菌种袋里。这将产生菌孢。
+Once you've got your shroom spawn, take it to a mushroom bed that has been filled with mushroom substrate. Mix the spawn in to start the grow process.=一旦你有了菌孢，就把它带到一个装满蘑菇基质的菇床上。将菌种混合，开始生长过程。
+Purchase a mushroom spawn station from Oscar=从Oscar购买菌孢站
+Monday 10th\nCo-op & deliveries\n\nMonday 17th\nCasino\n\nSaturday 22nd\nBoutique store, wall decorations, pawn shop\n\nMonday 24th - Release!\n\n\n=周一10合作&交付\n17日星期一赌场\n22日星期六精品店、墙饰、当铺\n24日星期一-发布！\n\n\n
+Units=单位
+ON YOUR FEET, SAMURAI!=站起来，武士！
+Purchase a grain bag from Fungal Phil=从Fungal Phil购买一个菌种袋
+Purchase mushroom substrate from Fungal Phil=从Fungal Phil购买蘑菇基质
+Custom Commands Framework=自定义命令框架
+Purchase a spore syringe from Fungal Phil=从 Fungal Phil 购买孢子注射器
+CONFIRM=确认
+Some Benzies punks tried to rob me but I managed to fight them off - no product or cash lost, boss.=一些本吉斯的小混混试图抢劫我，但我成功击退了他们——没有产品或现金损失，老板。
+I don't have any shroom spawn to mix into my assigned mushroom beds.=我没有任何菌孢可以混合到我指定的菇床上。
+Make sure I have shroom spawn my supplies stash.=确保我的储藏室里有菌孢。
+Got it. I'll be next to the mayor's house for the next 6 hours.=明白了。在接下来的6个小时里，我会在市长家旁边。
+Those bitchass Benzies just tried to rob me - I fought them off but lost some stuff, sorry boss.=本吉斯那群狗娘养的刚才想抢我——我打退了他们，但还是丢了点东西，对不起老板。
+Hey dumbass, maybe don't leave your stuff lying around!=嘿 蠢货，最好别把你的东西到处乱丢！
+sr:Deal for Benzies Family\\n<color\=green>\((\d+) days, (\d+) hours remaining\)=与本吉斯家族的交易\\n<color\=green>（剩余 $1 天，$2 小时）
+sr:Deal for Benzies Family\\n<color\=green>\((\d+) day, (\d+) hours remaining\)=与本吉斯家族的交易\\n<color\=green>（剩余 $1 天，$2 小时）
+sr:Deal for Benzies Family\\n<color\=#F7B119>\((\d+) hours remaining\)=与本吉斯家族的交易\\n<color\=#F7B119>（剩余 $1 小时）
+sr:Deal for Benzies Family\\n<color\=#F7B119>\((\d+) hour remaining\)=与本吉斯家族的交易\\n<color\=#F7B119>（剩余 $1 小时）
+Thanks,buddy.=谢了，伙计。
+Appreciate it!=多谢光临！
+I'd like to pawn something=我想典当一些东西
+Good doin' business with you=很高兴和你做生意
+Hey boss, I've heard there's a Benzies deal happening in Docks, outside the brick warehouse at the docks. Might be worth checking out.=嘿，老板，我听说在码头的砖仓库外，码头正在进行一笔奔驰交易。可能值得一看。
+Got it. I'll be under the north end of the overpass for the next 6 hours.=明白了。在接下来的6个小时里，我会在立交桥的北端。
+Sure=当然
+Thank You=非常感谢
+
+==================== 内容来自: 界面.txt ====================
+Time=时间  
+<color\=#54E717>+$115</color> Exceeded Quality Bonus=<color\=#54E717>+$115</color> 超过质量奖金
+Reduce cartel influence in Downtown to \n\n\nto unlock this region=减少卡特尔在市中心的影响力\n\n\n可解锁该区域
+Reduce cartel influence in Suburbia to\n\n\nto unlock this region=减少郊区卡特尔的影响\n\n\n可解锁该区域
+Reduce cartel influence in Docks to \n\n\nto unlock this region=减少卡特尔在码头的影响力\n\n\n可解锁该区域
+Reduce cartel influence in Westville to \n\n\nto unlock this region=减少卡特尔在西村的影响力\n\n\n可解锁该区域
+the management clipboard to assign the botanist to a locker=管理剪贴板将植物学家分配到储物柜
+Unlock this supplier by reaching 'friendly' with one of their connections.=通过与该供应商的某个联系人联系“友好”来解锁该供应商。 
+unaltered=不变的  
+morning psychosis=早晨精神错乱 
+Mix the shroom spawn into a mushroom bed=将菌孢混合到蘑菇床中
+Purchase a mushroom bed from Oscar=从Oscar购买蘑菇床
+Harvest the shrooms once fully grown=等蘑菇完全长大后再收割
+Purchase an AC unit from a hardware store=从五金店购买空调机组
+the AC unit to cool the mushroom bed=用于冷却蘑菇床的空调装置
+the mushroom spawn station to inocculate a grain bag=菌孢站为菌种袋接种
+Place cash in the chemist's locker=把现金放在化学家的储物柜里
+the management clipboard to assign the chemist to a locker=将化学家分配到储物柜的管理剪贴板
+Uncle Nelson=尼尔森叔叔 
+Purchase an AC unit from a hardware store=从五金店购买空调机组 
+Place cash in the botanist's locker=将现金放入植物学家的储物柜中Arms Dealer=军火商  
+the management clipboard to assign the cleaner to a locker=管理剪贴板将清洁工分配给储物柜Alison Knight=艾莉森·奈特  
+(Optional) Message Thomas to call off the truce=（可选）通知托马斯取消休战Jeremy Wilkinson=杰里米·威尔金森  
+Owned Vehicle=自有车辆Randy Caulfield=兰迪·考菲尔德  
+Place cash in the cleaner's locker=将现金放入清洁工的储物柜中Philip Wentworth=菲利普·温特沃斯  
+Classic methamphetamine. A powerful stimulant with intense physical and mental addictiveness.=典型的甲基苯丙胺。一种强效兴奋剂，具有强烈的身体和精神成瘾性。
+A big bag of smelly stuff that mushrooms love to grow in.=一大袋有臭味的东西，蘑菇喜欢在里面生长。
+A syringe containing mushroom spores floating in a sterile liquid. Must be injected into a spawn bag to begin growing.=一种装有菌孢漂浮在无菌液体中的注射器。必须注射到产卵袋中才能开始生长。
+Bag of steriled grain with an injection port. Inject with mushroom spores to begin the cultivation process.=带有注射口的无菌谷物袋。注射菌孢以开始种植过程。
+9x=9x
+Square garden bed. Perfect for growing mushrooms in.=方形花园床。非常适合种植蘑菇。
+Use=使用
+Insert grain bag + spore syringe into slots=将菌种袋+孢子注射器插入槽中
+Move/Select=移动/选择
+Remove syringe cap=取下注射器盖
+Insert syringe into grain bag=将注射器插入菌种袋
+A grain bag that has been inocculated with a spore syringe. Ready to be combined with mushroom substrate in a mushroom bed.=用孢子注射器填充的菌种袋。准备在蘑菇床中与蘑菇基质混合。
+Shroom Spawn=菌孢
+Toggle Heatmap=切换热图
+Must be filled with substrate=必须填充基材
+Pour substrate=浇注基材
+Click and drag to cut bag=点击并拖动以切割袋子
+Already full=已经满了
+Add mushroom spawn=添加蘑菇菌种
+Break chunks=打破大块
+Break shroom spawn into small chunks=将菌孢分成小块
+Mix=混合
+Cool=制冷
+Heat=制热
+<color\=#FFD700>AutoCollectCash:</color> <color\=red>OFF</color>=<color\=#FFD700>自动收取现金：</color> <color\=red>关闭</color>
+<color\=#FFD700>AutoCollectCash:</color> <color\=#00FF00>ON</color>=<color\=#FFD700>自动收取现金：</color> <color\=#00FF00>开</color>
+Provides a sterile environment to inocculate grain bags with spore syringes.=提供无菌环境，用孢子注射器填充菌种袋。
+Psychoactive magic mushroom. Induces strong hallucinogenic effects.	=具有精神活性的魔幻菇。\n产生强烈的致幻作用。
+Inventory won't fit everything. Some items will be placed in your backpack.=库存并不适合所有东西。有些物品会放在你的背包里。
+View inventory=查看库存
+ONE OF WEI'S CONNECTIONS MUST FIRST RECOMMEND YOU=威的一个熟人必须先推荐你
+the management clipboard to assign the chemist to a locker=将化学家分配到储物柜的管理剪贴板
+the management clipboard to assign the botanist to a locker=管理剪贴板将植物学家分配到储物柜
+Surprise!=惊喜
+Aim=目标
+Cock/Fire=瞄准/开火
+Good lord!=天啊！
+r:"(.+) °C"=$1 °C 
+r:"(.+) °F"=$1 °F
+Manage Storage=管理存储
+Manage Mushroom Spawn Station=菌孢站管理
+r:"Assign to botanist (.+)"=分配给植物学家 $1
+r:"Assigned (.+)"=已分配 $1
+Botanists can be assigned:\n- Pots\n- Drying racks\n- Mushroom beds\n- Mushroom spawn stations=植物学家可以分配： - 花盆 - 晾衣架 - 菇床 - 菌孢站
+Botanists can be assigned:\n- Pots\n- Drying racks\n- Mushroom beds\n- Mushroom spawn stations=植物学家可以分配： - 花盆 - 晾衣架 - 菇床 - 菌孢站
+Assign to botanist=指派给植物学家
+T-Shirt (Black)=T恤（黑色）
+Routes (Drag to Scroll)=路线（拖动可滚动）
+Standard=标准
+In use by Walter King=沃尔特·金在使用
+r:"In use by (.+)"=正在被 $1 使用
+Heavenly Magic Mushroom=天堂魔幻菇
+Manage Brick Press=管理砖机
+Total Spent <color\=#A0A0A0>(Weekly)</color>=总花费 <color\=#A0A0A0>（每周）</color>
+<color\=#A0A0A0FF>No recent purchases</color>=<color\=#A0A0A0FF>最近没有购买</color>
+Most Purchased Product <color\=#A0A0A0>(Weekly)</color>=最常购买的产品 <color\=#A0A0A0>（每周）</color>
+I need a dead drop:\n3x Grain Bag\n3x Spore Syringe\n1x PGR\n1x Speed Grow\n1x Fertilizer=我需要一个死信： 3x 粮袋 3x 孢子注射器 1x PGR 1x Speed Grow 1x 肥料
+setdayduration=setdayduration
+setdayduration 24=setdayduration 24
+setitemquality=设置项目质量
+Sets the quality of the equipped item=设置装备物品的品质
+setitemquality standard, setitemquality premium=setitemquality 标准，setitemquality 溢价
+Laundry Operations=洗衣业务
+Laundry App=洗衣应用程序
+Laundry=洗衣
+Max=最大
+No ongoing operations=无正在进行的操作
+$0 / $6000 (<color\=#5EFF5E>$6000</color> left)=$0 / $6000 (<color\=#5EFF5E>$6000</color> 剩余）
+$0 / $2000 (<color\=#5EFF5E>$2000</color> left)=$0 / $2000 (<color\=#5EFF5E>$2000</color> 剩余）
+$0 / $4000 (<color\=#5EFF5E>$4000</color> left)=$0 / $4000 (<color\=#5EFF5E>$4000</color> 剩余）
+$0 / $8000 (<color\=#5EFF5E>$8000</color> left)=$0 / $8000 (<color\=#5EFF5E>$8000</color> 剩余）
+FF4B40FF=FF4B40FF
+Fair Price:=公平价格：
+<b>Reload at stans weapon store</b>=<b>在斯坦斯武器店重新装弹</b>
+Penalty:=处罚：
+Police Chief=警察局
+You have been convicted of the following:=你已被判定犯有以下罪行：
+Learn how to manage botanists.=学习如何管理植物学家。
+Use the management clipboard to assign the botanist=使用管理剪贴板来指派植物学家
+There are no past deliveries=没有过去的交货记录
+Legend Sunglasses (Black)=传奇太阳镜（黑色）
+Button-Up Shirt (Charcoal)=纽扣衬衫（炭质）
+Blazer (Black)=运动夹克（黑色）
+Belt (Black)=皮带（黑色）
+Cargo Pants (Black)=工装裤（黑色）
+Sneakers (Black)=运动鞋（黑色）
+0 XP=0 XP
+When activated, will water up to 8 surrounding pots.=激活后，将为周围的8个锅浇水。
+Lighting Stack Size (Grow lights like LED lights)=照明堆叠尺寸（LED灯等生长灯）
+Growing Stack Size (Fertilizer, seeds, soil, etc)=种植堆尺寸（肥料、种子、土壤等）
+Ingredient Stack Size (horse semen, mouth wash, all Consumables like Cuke/Energy Drink, etc)=成分堆栈大小（马精液、漱口水、所有消耗品，如 Cuke/能量饮料等）
+Equipment Stack Size (packaging station, mixing station, etc)=设备堆叠尺寸（包装站、搅拌站等）
+Furniture Stack Size (table and other various forms of non-table furnitures)=家具堆叠尺寸（桌子和其他各种形式的非桌子家具）
+Everything's better in gold.=黄金的一切都更好。
+Thanks, buddy.=谢谢，伙计。
+In Transit=在途中
+No Items in inventory=库存中没有商品
+- Property\n- Property\n- Property\n- Property=-财产-财产-财产
+Caller Name=来电者姓名
+Invalid =无效 
+ingredient=成分
+presents=礼物
+Task description and instruction=任务描述和说明
+Not listed for sale=未上市出售
+You have not yet manufactured this product=您尚未生产该产品
+•  Property =•房地产 
+Listed for sale=挂牌出售
+Current Debt=流动负债
+Click a product to list/unlist it. Customers will only buy listed products.=单击产品以列出/取消列出它。\n客户只会购买列出的产品。
+Region Unavailable=区域不可用
+Favourite Product=最喜欢的产品
+Reach rank    \n\n\nto unlock this region=达到等级\n解锁此区域
+While working with the cartel=在与卡特尔合作时
+Re=关于
+Cartel Influence in Northtown=卡特尔在北城的影响
+Saved Orders=已保存订单
+Filter=筛选
+Reorder=重新排序
+HSV=单纯疱疹病毒
+Answer=回答
+Decline=衰退
+Select amount to deposit/withdraw=选择存款/取款金额
+You have deposited/withdrawn $X=您已存入/提取$X
+PHARMACY=药店
+YOU WIN!=你赢了！
+Play Again=再玩一次
+Total money laundered: $100,000=洗钱总额：100000美元
+Business owned for X days=企业拥有 X 天
+Laundering capacity: $10,000/day=洗钱能力：10,000 美元/天
+Business Info: Post Office=业务信息：邮局
+You need at least $10 in cash to begin laundering=你至少需要10美元现金才能开始洗钱
+。
+INSUFFICIENT FUNDS=资金不足
+Business owned for X days=拥有企业X天
+Big Sprinkler=大喷头
+Spawn Driftcar=生成漂移车
+Spawn GTR R34=生成 GTR R34
+The Hotbox <color\=#19BEF0>($30,000)</color>=热盒 <color\=#19BEF0>($30,000)</color>
+• Wait for Sam to dig access to the tunnel=•等待山姆挖掘隧道入口
+Insert product + packaging into slots=将产品+包装放入插槽
+r:"(\d+)ft"=$1英尺
+reorder=重新订购
+(Optional) Message Thomas to call off the truce=（可选）给托马斯发消息取消休战
+Place cash in the cleaner's locker=将现金放入清洁工的储物柜中
+the management clipboard to assign the cleaner to a locker=管理剪贴板将清洁工分配给储物柜
+Place cash in the botanist's locker=将现金放入植物学家的储物柜中
+70 FPS=70帧/秒
+easyPickpocketSlidevalue=轻松扒手Slidevalue
+easyPickpocket=轻松扒手
+
+==================== 内容来自: 人名.txt ====================
+[VIEW MORE OPTIONS]=[查看更多选项]Cranky Frank=疯狂弗兰克
+Ludwig Meyer=路德维希·迈耶  
+Joyce Ball=乔伊斯·鲍尔  
+Meg Cooley=梅格·库利  
+Peggy Myers=佩吉·迈尔斯  
+Lucy Pennington=露西·彭宁顿  
+Charles Rowland=查尔斯·罗兰  
+Melissa Wood=梅丽莎·伍德  
+Mrs. Ming=明女士  
+Louis Fourier=路易斯·傅立叶  
+Hank Stevenson=汉克·史蒂文森  
+Jennifer Rivera=詹妮弗·里维拉  
+Javier Pérez=哈维尔·佩雷斯  
+George Greene=乔治·格林  
+Jeff Gilmore=杰夫·吉尔摩  
+Jerry Montero=杰里·蒙特罗  
+Molly Presley=莫莉·普雷斯利  
+Mac Cooper=麦克·库珀  
+Genghis Barn=根基斯·巴恩  
+Elizabeth Homley=伊丽莎白霍姆利  
+Dean Webster=迪恩·韦伯斯特  
+Trent Sherman=特伦特·谢尔曼  
+Karen Kennedy=凯伦·肯尼迪  
+Eugene Buckley=尤金·巴克利  
+Lisa Gardener=丽莎·加德纳  
+Kim Delaney=金·德莱尼  
+Beth Penn=贝丝·佩恩  
+Jane Lucero=简·卢塞罗  
+Marco Barone=马可·巴罗内  
+Billy Kramer=比利·克莱默  
+Kevin Oakley=凯文·奥克利  
+Keith Wagner=基思·瓦格纳  
+Brad Crosby=布拉德·克罗斯比  
+Doris Lubbin=多丽丝·卢宾  
+Chris Sullivan=克里斯·沙利文  
+the Benzies Family=本吉斯家族  
+lison Knight=艾莉森·奈特
+Jeremy Wilkinson=杰里米·威尔金森
+Randy Caulfield=兰迪·考菲尔德
+Philip Wentworth=菲利普·温特沃斯
+Ludwig Meyer=路德维希·迈耶
+Joyce Ball=乔伊斯·鲍尔
+Meg Cooley=梅格·库利
+Peggy Myers=佩吉·迈尔斯
+Lucy Pennington=露西·彭宁顿
+Charles Rowland=查尔斯·罗兰
+Melissa Wood=梅丽莎·伍德
+Mrs. Ming=明女士
+Hank Stevenson=汉克·史蒂文森
+Jennifer Rivera=詹妮弗·里维拉
+Javier Pérez=哈维尔·佩雷斯
+George Greene=乔治·格林
+Jeff Gilmore=杰夫·吉尔摩
+Jerry Montero=杰里·蒙特罗
+Molly Presley=莫莉·普雷斯利
+Genghis Barn=根基斯·巴恩
+Elizabeth Homley=伊丽莎白霍姆利
+Dean Webster=迪恩·韦伯斯特
+Trent Sherman=特伦特·谢尔曼
+Karen Kennedy=凯伦·肯尼迪
+Eugene Buckley=尤金·巴克利
+Lisa Gardener=丽莎·加德纳
+Kim Delaney=金·德莱尼
+Beth Penn=贝丝·佩恩
+Jane Lucero=简·卢塞罗
+Marco Barone=马可·巴罗内
+Billy Kramer=比利·克莱默
+Kevin Oakley=凯文·奥克利
+Keith Wagner=基思·瓦格纳
+Brad Crosby=布拉德·克罗斯比
+Doris Lubbin=多丽丝·卢宾
+Alison Knight=艾莉森·奈特
+Harold Colt=哈罗德·柯尔特
+Jack Knight=杰克·奈特
+Sherman Giles=谢尔曼·贾尔斯
+Dennis Kennedy=丹尼斯·肯尼迪
+Bruce Norton=布鲁斯·诺顿
+Carl Bundy=卡尔·邦迪
+Jack Knight=杰克·奈特
+Harold Colt=哈罗德·柯尔特
+Lily Turner=莉莉·特纳
+FF9F47FF=FF9F47FF
+Fiona Hancock=菲奥娜·汉考克
+FF7551FF=FF7551FF
+Jen Heard=珍·赫德
+85E559FF=85e559英尺
+Ray Hoffman=雷·霍夫曼
+71AB5DFF=71AB5DFF
+Herbert Bleuball=赫伯特·布鲁博尔
+Walter Cussler=沃尔特·库斯勒
+Tobias Wentworth=托拜厄斯·温特沃斯
+Pearl Moore=珀尔摩尔
+Irene Meadows=艾琳·梅多斯
+Leo Rivers=利奥·里弗斯
+Wei Long=魏龙
+Brad's Tent=布拉德的帐篷
+Kyle Cooley<color\=#A0A0A0FF> (Northtown)</color>=凯尔·库利<color\=#A0A0A0FF> （北镇）</color>
+Mick Lubbin<color\=#A0A0A0FF> (Northtown)</color>=米克·卢宾<color\=#A0A0A0FF> （北镇）</color>
+Jessi Waters<color\=#A0A0A0FF> (Northtown)</color>=杰西·沃特斯<color\=#A0A0A0FF> （北镇）</color>
+Sam Thompson<color\=#A0A0A0FF> (Northtown)</color>=萨姆·汤普森<color\=#A0A0A0FF> （北镇）</color>
+Austin Steiner<color\=#A0A0A0FF> (Northtown)</color>=奥斯汀·施泰纳<color\=#A0A0A0FF> （北镇）</color>
+Kathy Henderson<color\=#A0A0A0FF> (Northtown)</color>=凯西·亨德森<color\=#A0A0A0FF> （北镇）</color>
+Jack Knight<color\=#A0A0A0FF> (Suburbia)</color>=杰克·奈特<color\=#A0A0A0FF> （郊区）</color>
+Karen Kennedy<color\=#A0A0A0FF> (Suburbia)</color>=凯伦·肯尼迪<color\=#A0A0A0FF> （郊区）</color>
+Chris Sullivan<color\=#A0A0A0FF> (Suburbia)</color>=克里斯·沙利文  <color\=#A0A0A0FF> （郊区）</color>
+Carl Bundy<color\=#A0A0A0FF> (Suburbia)</color>=卡尔·邦迪<color\=#A0A0A0FF> （郊区）</color>
+Hank Stevenson<color\=#A0A0A0FF> (Suburbia)</color>=汉克·史蒂文森<color\=#A0A0A0FF> （郊区）</color>
+Jackie Stevenson<color\=#A0A0A0FF> (Suburbia)</color>=杰基·史蒂文森<color\=#A0A0A0FF> （郊区）</color>
+Harold Colt<color\=#A0A0A0FF> (Suburbia)</color>=哈罗德·柯尔特<color\=#A0A0A0FF> （郊区）</color>
+Alison Knight<color\=#A0A0A0FF> (Suburbia)</color>=艾莉森·奈特<color\=#A0A0A0FF> （郊区）</color>
+Dennis Kennedy<color\=#A0A0A0FF> (Suburbia)</color>=丹尼斯·肯尼迪<color\=#A0A0A0FF> （郊区）</color>
+Keith Wagner<color\=#A0A0A0FF> (Westville)</color>=基思·瓦格纳<color\=#A0A0A0FF> （西村）</color>
+Kim Delaney<color\=#A0A0A0FF> (Westville)</color>=金·德莱尼<color\=#A0A0A0FF> （西村）</color>
+Trent Sherman<color\=#A0A0A0FF> (Westville)</color>=特伦特·谢尔曼<color\=#A0A0A0FF> （西村）</color>
+Dean Webster<color\=#A0A0A0FF> (Westville)</color>=迪恩·韦伯斯特<color\=#A0A0A0FF> （西村）</color>
+Jerry Montero<color\=#A0A0A0FF> (Westville)</color>=杰里·蒙特罗<color\=#A0A0A0FF> （西村）</color>
+George Greene<color\=#A0A0A0FF> (Westville)</color>=乔治·格林<color\=#A0A0A0FF> （西村）</color>
+Charles Rowland<color\=#A0A0A0FF> (Westville)</color>=查尔斯·罗兰<color\=#A0A0A0FF> （西村）</color>
+Meg Cooley<color\=#A0A0A0FF> (Westville)</color>=梅格·库利<color\=#A0A0A0FF> （西村）</color>
+Joyce Ball<color\=#A0A0A0FF> (Westville)</color>=乔伊斯·鲍尔<color\=#A0A0A0FF> （西村）</color>
+Doris Lubbin<color\=#A0A0A0FF> (Westville)</color>=多丽丝·卢宾<color\=#A0A0A0FF> （西村）</color>
+Kevin Oakley<color\=#A0A0A0FF> (Downtown)</color>=凯文·奥克利<color\=#A0A0A0FF> （市中心）</color>
+Eugene Buckley<color\=#A0A0A0FF> (Downtown)</color>=尤金·巴克利<color\=#A0A0A0FF> （市中心）</color>
+Elizabeth Homley<color\=#A0A0A0FF> (Downtown)</color>=伊丽莎白霍姆利<color\=#A0A0A0FF> （市中心）</color>
+Greg Figgle<color\=#A0A0A0FF> (Downtown)</color>=格雷格·菲格尔<color\=#A0A0A0FF> （市中心）</color>
+Jeff Gilmore<color\=#A0A0A0FF> (Downtown)</color>=杰夫·吉尔摩<color\=#A0A0A0FF> （市中心）</color>
+Jennifer Rivera<color\=#A0A0A0FF> (Downtown)</color>=詹妮弗·里维拉<color\=#A0A0A0FF> （市中心）</color>
+Louis Fourier<color\=#A0A0A0FF> (Downtown)</color>=路易斯·傅立叶  <color\=#A0A0A0FF> （市中心）</color>
+Lucy Pennington<color\=#A0A0A0FF> (Downtown)</color>=露西·彭宁顿<color\=#A0A0A0FF> （市中心）</color>
+Philip Wentworth<color\=#A0A0A0FF> (Downtown)</color>=菲利普·温特沃斯<color\=#A0A0A0FF> （市中心）</color>
+Randy Caulfield<color\=#A0A0A0FF> (Downtown)</color>=兰迪·考菲尔德<color\=#A0A0A0FF> （市中心）</color>
+Billy Kramer<color\=#A0A0A0FF> (Docks)</color>=比利·克莱默<color\=#A0A0A0FF> （码头）</color>
+Marco Barone<color\=#A0A0A0FF> (Docks)</color>=马可·巴罗内<color\=#A0A0A0FF> （码头）</color>
+Lisa Gardener<color\=#A0A0A0FF> (Docks)</color>=丽莎·加德纳<color\=#A0A0A0FF> （码头）</color>
+Genghis Barn<color\=#A0A0A0FF> (Docks)</color>=根基斯·巴恩<color\=#A0A0A0FF> （码头）</color>
+Mac Cooper<color\=#A0A0A0FF> (Docks)</color>=麦克·库珀  <color\=#A0A0A0FF> （码头）</color>
+Javier Pérez<color\=#A0A0A0FF> (Docks)</color>=哈维尔·佩雷斯<color\=#A0A0A0FF> （码头）</color>
+Melissa Wood<color\=#A0A0A0FF> (Docks)</color>=梅丽莎·伍德<color\=#A0A0A0FF> （码头）</color>
+Anna Chesterfield<color\=#A0A0A0FF> (Docks)</color>=安娜·切斯特菲尔德<color\=#A0A0A0FF> （码头）</color>
+(Docks)</color>=疯狂弗兰克<color\=#A0A0A0FF> （码头）</color>
+Lily Turner<color\=#A0A0A0FF> (Uptown)</color>=莉莉·特纳<color\=#A0A0A0FF> （上城区）</color>
+Jen Heard<color\=#A0A0A0FF> (Uptown)</color>=珍·赫德<color\=#A0A0A0FF> （上城区）</color>
+Ray Hoffman<color\=#A0A0A0FF> (Uptown)</color>=雷·霍夫曼<color\=#A0A0A0FF> （上城区）</color>
+Herbert Bleuball<color\=#A0A0A0FF> (Uptown)</color>=赫伯特·布鲁博尔<color\=#A0A0A0FF> （上城区）</color>
+Walter Cussler<color\=#A0A0A0FF> (Uptown)</color>=沃尔特·库斯勒<color\=#A0A0A0FF> （上城区）</color>
+Tobias Wentworth<color\=#A0A0A0FF> (Uptown)</color>=托拜厄斯·温特沃斯<color\=#A0A0A0FF> （上城区）</color>
+Pearl Moore<color\=#A0A0A0FF> (Uptown)</color>=珀尔摩尔<color\=#A0A0A0FF> （上城区）</color>
+Irene Meadows<color\=#A0A0A0FF> (Uptown)</color>=艾琳·梅多斯<color\=#A0A0A0FF> （上城区）</color>
+Fiona Hancock<color\=#A0A0A0FF> (Uptown)</color>=菲奥娜·汉考克<color\=#A0A0A0FF> （上城区）</color>
+Michael Boog<color\=#A0A0A0FF> (Uptown)</color>=迈克尔·布格<color\=#A0A0A0FF> （上城区）</color>
+
+
+==================== 内容来自: 模组.txt ====================
+Incompatible=不兼容
+Example Boolean Value=布尔值示例
+Enter value...=输入值。..
+Press Any Key=按任意键
+Example Color Value=示例颜色值
+G=G
+Select a Mod=选择一个模组
+Show All Settings=显示所有设置
+Find all settings available to edit.=查找所有可编辑的设置。

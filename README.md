@@ -10,6 +10,27 @@ Schedule I简中汉化补丁
 
 **解压缩汉化补丁到游戏根目录，安装即完成**
 
+### 汉化词库源码
+
+词库沿用发布包的目录和文件名，位于 `AutoTranslator/Translation/zh-CN/Text/`：
+
+- `中文.txt`：普通文本的简体中文译文。
+- `SChinese2.txt`：动态文本的 `r:` 正则规则和 `sr:` 递归拆分规则。
+
+已安装原汉化补丁的玩家，退出游戏后，将本仓库的 `AutoTranslator` 文件夹合并复制到游戏根目录，替换这两个同名词库文件即可。打包新 Release 时也使用这两个文件。动态文本的递归处理建议将 `AutoTranslator/Config.ini` 中 `[Behaviour]` 下的 `MaxTextParserRecursion` 设置为 `3`。
+
+本次补全基于 `v0.4` 发布包和正式版游戏 `v0.4.6f13`，保留原词库署名启铭star、夜行者和原补丁作者署名。翻译及复核使用 AI 辅助，修订范围包括漏译、明显错译、术语、格式标签、字符串拼接空白及动态金额规则。仍需要持续的实机反馈；动态生成的新文本及图片内的英文可能继续出现。
+
+### 词库检查
+
+使用 PowerShell 7，在仓库目录运行：
+
+```powershell
+pwsh -NoProfile -File ./validate_translations.ps1
+```
+
+脚本首次运行会下载并校验固定提交的 XUnity.AutoTranslator 5.4.5 原版解析和替换代码，随后检查词库行、正则捕获组和 `translation-regression.json` 中的用例。下载内容缓存在临时目录；可用 `-SourceCachePath` 指定位置，或用 `-ReportPath` 保存检查结果。检查涵盖静态词条、动态金额、数量、收据、任务地点和生成的变量模板；它不模拟 Unity 界面钩子、数字模板化或在线翻译端点。当前配置已在正式版游戏的菜单及存档载入画面检查过，逐场景显示仍需继续验证。
+
 
 ## 常见错误问题解决方案
  demo不能用，需要正式版，steamdeck请自行加命令行，盗版不能保证补丁有效

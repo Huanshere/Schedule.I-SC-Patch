@@ -928,5 +928,45 @@
     "expected": "品味不错，__TEST_PERSON__",
     "rule_key": "sr:\"(?s)^Excellent\\ taste,\\ (?<v_formal_address>.+?)$\"",
     "covers": "generated template: Excellent taste, formal_address"
+  },
+  {
+    "input": "1x",
+    "expected": "1x",
+    "covers": "Standalone inventory stack count retains its original x suffix"
+  },
+  {
+    "input": "2x",
+    "expected": "2x",
+    "covers": "Standalone inventory stack count retains its original x suffix"
+  },
+  {
+    "input": "8x",
+    "expected": "8x",
+    "covers": "Standalone inventory stack count retains its original x suffix"
+  },
+  {
+    "input": "9x",
+    "expected": "9x",
+    "covers": "Standalone inventory stack count retains its original x suffix"
+  },
+  {
+    "input": "16x",
+    "expected": "16x",
+    "covers": "Standalone inventory stack count retains its original x suffix"
+  },
+  {
+    "input": "99x",
+    "expected": "99x",
+    "covers": "Standalone inventory stack count retains its original x suffix"
+  },
+  {
+    "input": "8x MSAA",
+    "expected": "8 倍 MSAA",
+    "covers": "Graphics sampling multiplier keeps its context-specific translation"
+  },
+  {
+    "input": "Speed Multiplier: 2x",
+    "expected": "速度倍率：2x",
+    "covers": "Inventory quantity rule does not match a speed multiplier sentence"
   }
 ]

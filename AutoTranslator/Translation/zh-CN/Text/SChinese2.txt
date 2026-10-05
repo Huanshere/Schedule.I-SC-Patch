@@ -425,3 +425,5 @@ sr:"^(?<employee>.+) will draw his daily wage of <color\=#54E717>(?<wage_i>\\$(?
 sr:"^(?<employee>.+) will draw her daily wage of <color\=#54E717>(?<wage_i>\\$(?:\\d{1,3}(?:,\\d{3})+|\\d+))</color> from this locker$"="${employee} 将从这个储物柜中领取她 <color\=#54E717>${wage_i}</color> 的日薪"
 sr:"^We need (?<qty_i>\\d+)x (?<product>.+?)\\. You've got (?<days_i>\\d+) days to get it to us\\. Payment is (?<payment_i>\\$(?:\\d{1,3}(?:,\\d{3})+|\\d+))\\.$"="我们需要 ${qty_i} 份 ${product}。你必须在 ${days_i} 天内交货。报酬是 ${payment_i}。"
 sr:"^(?<qty_i>\\d+)(?:x|份) (?<product>.+?), (?<location>.+)$"="${qty_i}份 ${product}，${location}"
+// Preserve standalone inventory stack quantities, e.g. 8x.
+r:"^(\\d+x)$"="$1"

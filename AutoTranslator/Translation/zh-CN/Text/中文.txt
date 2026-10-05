@@ -3016,8 +3016,8 @@ Deal Completed for Jimmy Bimbo=与吉米·宾博的交易已完成
 0km/h=0公里/小时
 Test test=测试文本
 Schedule I will be releasing in <color\=#5DD642>March 2025.</color> \n\nIf you've enjoyed this demo, please consider wishlisting the <color\=#000000> <size\=0>.</size>\n\n<color\=#5DD642>Full Game Features</color>\n=我计划于<color\=#5DD642>2025年3月</color>发布。\n\n如果您喜欢这个试玩版，请考虑将游戏加入愿望单<color\=#000000> <size\=0>。</size>\n\n<color\=#5DD642>正式版游戏特色</color>\n
-8x=8倍
-1x=1倍
+8x=8x
+1x=1x
 Jukebox=点唱机
 Low Bun=低发髻
 High Bun=高发髻

@@ -46,7 +46,7 @@
   },
   {
     "input": "You got 2x OG Kush? I'll pay <color=#46CB4F>$90</color> for it",
-    "expected": "你有 2 份 OG Kush 吗？我出 <color=#46CB4F>$90</color> 购买。",
+    "expected": "你有 2 份 OG Kush 吗？我出 <color=#46CB4F>$90</color>。",
     "covers": "static, amount, or dialogue regression"
   },
   {
@@ -265,7 +265,7 @@
   },
   {
     "input": "Deal (42)",
-    "expected": "成交（签约费：42）",
+    "expected": "成交（42）",
     "rule_key": "sr:\"(?s)^Deal\\ \\((?<v_SIGNING_FEE_i>.+?)\\)$\"",
     "covers": "generated template: Deal (<SIGNING_FEE>)"
   },
@@ -559,7 +559,7 @@
   },
   {
     "input": "Much appreciated mulatto. Maybe go talk to __TEST_PERSON__. I think they'd like your product",
-    "expected": "多谢了，混血儿。去找找 __TEST_PERSON__ 吧，我觉得他们会喜欢你的产品。",
+    "expected": "多谢了，混血儿。去找找 __TEST_PERSON__ 吧，我觉得他们会喜欢你的货。",
     "rule_key": "sr:\"(?s)^Much\\ appreciated\\ mulatto\\.\\ Maybe\\ go\\ talk\\ to\\ (?<v_NAME>.+?)\\.\\ I\\ think\\ they'd\\ like\\ your\\ product$\"",
     "covers": "generated template: Much appreciated mulatto. Maybe go talk to <NAME>. I think they'd like your product"
   },
@@ -601,7 +601,7 @@
   },
   {
     "input": "So you'd like to purchase __TEST_PERSON__? Payments are made from your online balance.",
-    "expected": "你想买下 __TEST_PERSON__ 吗？费用会从你的线上余额中扣除。",
+    "expected": "你想买下 __TEST_PERSON__ 吗？费用会从你的在线余额中扣除。",
     "rule_key": "sr:\"(?s)^So\\ you'd\\ like\\ to\\ purchase\\ (?<v_BUSINESS>.+?)\\?\\ Payments\\ are\\ made\\ from\\ your\\ online\\ balance\\.$\"",
     "covers": "generated template: So you'd like to purchase <BUSINESS>? Payments are made from your online balance."
   },
@@ -829,7 +829,7 @@
   },
   {
     "input": "So you'd like to purchase __TEST_PERSON__? Payments are made from your online balance.",
-    "expected": "你想购买__TEST_PERSON__吗？款项将从你的线上余额中扣除。",
+    "expected": "你想购买__TEST_PERSON__吗？款项将从你的在线余额中扣除。",
     "rule_key": "sr:\"(?s)^So\\ you'd\\ like\\ to\\ purchase\\ (?<v_PROPERTY>.+?)\\?\\ Payments\\ are\\ made\\ from\\ your\\ online\\ balance\\.$\"",
     "covers": "generated template: So you'd like to purchase <PROPERTY>? Payments are made from your online balance."
   },

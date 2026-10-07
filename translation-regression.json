@@ -968,5 +968,65 @@
     "input": "Speed Multiplier: 2x",
     "expected": "速度倍率：2x",
     "covers": "Inventory quantity rule does not match a speed multiplier sentence"
+  },
+  {
+    "input": "2 drivers",
+    "expected": "2 位司机",
+    "covers": "Drivers plural count substitution"
+  },
+  {
+    "input": "12 drivers",
+    "expected": "12 位司机",
+    "covers": "Drivers multi-digit count substitution"
+  },
+  {
+    "input": "Route has 2 drivers assigned",
+    "expected": "Route has 2 drivers assigned",
+    "covers": "Drivers count rule must be anchored"
+  },
+  {
+    "input": "The Hippies are coming to town...",
+    "expected": "嬉皮士要进城了……",
+    "covers": "Special-customer recursive group lookup"
+  },
+  {
+    "input": "The Rock Band is coming to town...",
+    "expected": "摇滚乐队要进城了……",
+    "covers": "Special-customer singular template and multiword group"
+  },
+  {
+    "input": "The <color=#FF5B5B>Businessmen</color> are coming to town...",
+    "expected": "<color=#FF5B5B>商人</color>要进城了……",
+    "covers": "Special-customer Unicode-equals decoding and raw rich-text captures"
+  },
+  {
+    "input": "The <color=red>Hippies</color> have arrived.",
+    "expected": "<color=red>嬉皮士</color>来了。",
+    "covers": "Special-customer arrival template and color preservation"
+  },
+  {
+    "input": "The gardener is coming to town...",
+    "expected": "The gardener is coming to town...",
+    "covers": "Special-customer rules limited to confirmed groups"
+  },
+  {
+    "input": "Hire a Driver from Manny.\n\nUse the Drivers app to set routes, deliveries and trips.\n\nAssign a vehicle you bought from the dealership.",
+    "expected": "从曼尼那里雇用一名司机。\n\n使用“司机”应用设置路线、配送和行程。\n\n为司机分配一辆你从汽车经销商处购买的车辆。",
+    "covers": "Supplemental TextHelper escaping, tags/placeholders or significant whitespace"
+  },
+  {
+    "input": "Oh! And I remember hearing <color=blue><NPC_DESCRIPTION></color> has one! Sorry, Oscar isn't very good with names. Hope this helps.",
+    "expected": "哦！我想起来听人说，<color=blue><NPC_DESCRIPTION></color> 有一个！抱歉，奥斯卡不太擅长记名字。希望能帮上忙。",
+    "covers": "Supplemental TextHelper escaping, tags/placeholders or significant whitespace"
+  },
+  {
+    "input": "You the new guy in town?\t",
+    "expected": "你就是镇上新来的那位？\t",
+    "covers": "Supplemental TextHelper escaping, tags/placeholders or significant whitespace"
+  },
+  {
+    "input": "Big fancy conference table. You can place stuff on it. ",
+    "expected": "宽敞气派的会议桌。可以在上面放东西。 ",
+    "covers": "Supplemental TextHelper escaping, tags/placeholders or significant whitespace"
   }
 ]
